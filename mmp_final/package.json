@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "p5bots test",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.12.1",
+    "express": "^4.17.1",
+    "foo": "^1.0.0",
+    "node-gyp": "^8.0.0",
+    "node-pre-gyp": "^0.17.0",
+    "serialport": "^9.0.7"
+  }
+}
